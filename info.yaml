@@ -16,7 +16,7 @@ project:
 documentation: 
   author:       "FNE"      # Your name
   discord:      "..."      # Your discord handle - make sure to include the # part as well
-  title:        "ISCAS89-S27      # Project title
+  title:        "ISCAS89-S27"      # Project title
   description:  "ISCAS89 benchmarks, s27 circuit is sequential circuit example"      # Short description of what your project does
   how_it_works: "....."      # Longer description of how the project works
   how_to_test:  "Enter a four Primary Input(PI)s by switches, set VDD switch to 1 and and set GND switch to 0. The Primary output(PO) result will appear in led."      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
