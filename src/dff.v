@@ -1,16 +1,10 @@
-module dff (CK,Q,D);
-input CK,D;
-output Q;
 
-  wire NM,NCK;
-  trireg NQ,M;
+module dff(input wire clk,output reg q,input wire d);
 
-  nmos N7 (M,D,NCK);
-  not P3 (NM,M);
-  nmos N9 (NQ,NM,CK);
-  not P5 (Q,NQ);
-  not P1 (NCK,CK);
+    wire notq;
+    assign notq = !q;
+    always @(posedge clk)
+        q <= d;
 
 endmodule
-
 
