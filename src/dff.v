@@ -6,4 +6,3 @@ module dff(input wire clk,output reg q,input wire d);
         q <= d;
 
 endmodule
-
