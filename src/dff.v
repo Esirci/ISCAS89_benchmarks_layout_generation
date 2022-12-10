@@ -1,4 +1,3 @@
-
 module dff(input wire clk,output reg q,input wire d);
 
     wire notq;
