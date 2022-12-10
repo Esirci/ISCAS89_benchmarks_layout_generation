@@ -1,8 +1,3 @@
-//# 3 inputs
-//# 6 outputs
-//# 14 D-type flipflops
-//# 44 inverters
-//# 75 gates (31 ANDs + 9 NANDs + 16 ORs + 19 NORs)
 
 module s298(G117,G118,G132,G133,G66,G67,CK,G0,G1,G2,GND,VDD);
 input GND,VDD,CK,G0,G1,G2;
