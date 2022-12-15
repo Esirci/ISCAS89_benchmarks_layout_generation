@@ -3,7 +3,7 @@ project:
   wokwi_id:    0        # If using wokwi, set this to your project's ID
   source_files:        # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. Source files must be in ./src
     - top_ISCAS89.v
-    - s298.v
+    - s27.v
     - dff.v
   top_module:  "top_ISCAS89"      # put the name of your top module here, make it unique by prepending your github username
 
@@ -16,7 +16,7 @@ project:
 documentation: 
   author:       "FNE"      # Your name
   discord:      "FNE#0565"      # Your discord handle - make sure to include the # part as well
-  title:        "ISCAS89-S298"      # Project title
+  title:        "ISCAS89-S27"      # Project title
   description:  "ISCAS89 benchmarks, s298 circuit is sequential circuit example"      # Short description of what your project does
   how_it_works: "take PIs(3) and show the results in POs(6)."      # Longer description of how the project works
   how_to_test:  "Enter a tree Primary Input(PI)s by switches, set VDD switch to 1 and and set GND switch to 0. The Primary output(PO)s result will appear in led."      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
@@ -30,15 +30,10 @@ documentation:
     - io_in[1]      #GO from PIs
     - io_in[2]      #G1 from PIs
     - io_in[3]      #G2 from PIs
-    - io_in[4]      #GND
-    - io_in[5]      #VDD 
-
+    - io_in[4]      #G3 from PIs
+    - io_in[5]      #GND
+    - io_in[6]      #VDD 
   outputs:
-    - io_out[0]     # from PO
-    - io_out[1]     # from PO
-    - io_out[2]     # from PO
-    - io_out[3]     # from PO
-    - io_out[4]     # from PO
-    - io_out[5]     # from PO
+    - io_out[0]     #G17 from PO
     - none
 
