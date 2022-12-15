@@ -1,5 +1,5 @@
 
-module s27(G17,GND,VDD,CK,G0,G1,G2,G3);
+(* keep_hierarchy *) module s27(G17,GND,VDD,CK,G0,G1,G2,G3);
 input GND,VDD,CK,G0,G1,G2,G3;
 output G17;
 
